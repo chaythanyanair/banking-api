@@ -15,7 +15,7 @@ This API can be used to generate new JWT in case the current one is expired. A J
 
 ```
 curl -X POST \
-  'https://banking-api-server.herokuapp.com/login?ifsc=ABHdY0065016' \
+  'https://banking-api-server.herokuapp.com/login' \
   -H 'content-type: application/json' \
   -d '{
 	"username": "admin",
